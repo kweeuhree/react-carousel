@@ -1,0 +1,301 @@
+@media (min-width: 980px) {
+  .App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(124, 115, 182);
+    border-radius: 1vw;
+    margin: 1em;
+    margin-top: 2em;
+    box-shadow: 12px 14px 39px 0px rgba(0,0,0,0.43);
+  }
+  
+  /* Card Container */
+  .card-container {
+    width: 100%;
+    height: 70vh;
+    /* border: solid green; */
+    display: flex;
+  }
+  
+  .card-element {
+    border: solid slateblue;
+  }
+  
+  /* Image Container */
+  .image-container {
+    width: 55%;
+    min-height: 75vh;
+    max-height: 75vh;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-left: 0.2em;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Additional Information Container */
+  
+  .name-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 42%;
+    margin: auto;
+    padding: 1em;
+    position: absolute;
+    left: 53%;
+    top: 35%;
+    z-index: 5;
+    text-align: end;
+  }
+  
+  .name-container {
+    margin-right: 1vw;
+    letter-spacing: 0.5vw;
+  }
+  
+  .info-container {
+    text-align: start;
+  }
+  
+  /* Carousel Buttons */
+  .all-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5em;
+    margin-top: 3.5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    /* border: solid red; */
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(54, 47, 124, 0.486);
+    padding: 1em;
+    margin: 1.5em;
+    margin-bottom: unset;
+    border-radius: 5vw;
+    width: 10vw;
+    background-color: rgba(93, 103, 158, 0.178);
+  }
+  
+  .button-container:hover {
+    background-color: rgba(200, 205, 238, 0.767);
+    border: 1px solid rgba(204, 210, 247, 0.589);
+  }
+  
+  .action-button {
+    font-size: 2vw;
+    color: rgba(54, 47, 124, 0.486);
+  }
+}
+
+
+/* --end desktop--------------------------------------------------------- */
+/* med view------------------------------------------------------------- */
+@media (min-width:680px) and (max-width: 980px) {
+  .App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(124, 115, 182);
+    border-radius: 1vw;
+    margin: 1em;
+    margin-top: 2em;
+    box-shadow: 12px 14px 39px 0px rgba(0,0,0,0.43);
+  }
+  
+  /* Card Container */
+  .card-container {
+    width: 100%;
+    height: 70vh;
+    /* border: solid green; */
+    display: flex;
+  }
+  
+  .card-element {
+    border: solid slateblue;
+  }
+  
+  /* Image Container */
+  .image-container {
+    width: 55%;
+    min-height: 70vh;
+    max-height: 70vh;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-left: 0.2em;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Additional Information Container */
+  
+  .name-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 38%;
+    margin: auto;
+    padding: 1em;
+    position: absolute;
+    left: 53%;
+    top: 35%;
+    z-index: 5;
+    text-align: end;
+  }
+  
+  .name-container {
+    margin-right: 1vw;
+    letter-spacing: 0.5vw;
+  }
+  
+  .info-container {
+    text-align: start;
+  }
+  
+  /* Carousel Buttons */
+  .all-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em;
+    padding: 0.5em;
+    /* border: solid red; */
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(54, 47, 124, 0.486);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5vw;
+    width: 15vw;
+    background-color: rgba(93, 103, 158, 0.178);
+  }
+  
+  .button-container:hover {
+    background-color: rgba(200, 205, 238, 0.767);
+    border: 1px solid rgba(204, 210, 247, 0.589);
+  }
+  
+  .action-button {
+    font-size: 4vw;
+    color: rgba(54, 47, 124, 0.486);
+  }
+}
+
+
+@media (max-width: 680px) {
+  .App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(124, 115, 182);
+    border-radius: 1vw;
+    margin: 1em;
+    margin-top: 2em;
+    box-shadow: 12px 14px 39px 0px rgba(0,0,0,0.43);
+  }
+  
+  /* Card Container */
+  .card-container {
+    width: 100%;
+    height: 70vh;
+    /* border: solid green; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-element {
+    border: solid slateblue;
+  }
+  
+  /* Image Container */
+  .image-container {
+    width: 75%;
+    min-height: 50vh;
+    max-height: 50vh;
+    overflow: hidden;
+    margin-top: 1em;
+    margin: auto;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Additional Information Container */
+  
+  .name-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 72%;
+    margin: auto;
+    padding: 1em;
+    position: unset;
+    left: unset;
+    top: unset;
+    z-index: unset;
+    text-align: end;
+  }
+  
+  .name-container {
+    margin-right: 1vw;
+    letter-spacing: 0.5vw;
+  }
+  
+  .info-container {
+    text-align: start;
+  }
+  
+  /* Carousel Buttons */
+  .all-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em;
+    padding: 0.5em;
+    /* border: solid red; */
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(54, 47, 124, 0.486);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5vw;
+    width: 15vw;
+    background-color: rgba(93, 103, 158, 0.178);
+  }
+  
+  .button-container:hover {
+    background-color: rgba(200, 205, 238, 0.767);
+    border: 1px solid rgba(204, 210, 247, 0.589);
+  }
+  
+  .action-button {
+    font-size: 4vw;
+    color: rgba(54, 47, 124, 0.486);
+  }
+}
