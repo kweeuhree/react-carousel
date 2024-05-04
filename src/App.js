@@ -27,6 +27,9 @@ function App() {
 
     return (
    <div className='App'>
+    <div className='header'>
+      <h2>Saint Petersburg</h2>
+    </div>
       <div className='card-container'>
           <Card className="card-element" name={currentCard.name} picture={currentCard.picture} info={currentCard.info} />
       </div>

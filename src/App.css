@@ -6,8 +6,19 @@
     border: 1px solid rgb(124, 115, 182);
     border-radius: 1vw;
     margin: 1em;
-    margin-top: 2em;
     box-shadow: 12px 14px 39px 0px rgba(0,0,0,0.43);
+  }
+
+  /* Header */
+  .header {
+    margin: 1em;
+    margin-top: auto;
+  }
+
+  .header h2{
+    letter-spacing: 0.7vw;
+    font-size: 3.3vh;
+    color:rgba(93, 103, 158, 0.178)
   }
   
   /* Card Container */
@@ -66,13 +77,13 @@
   /* Carousel Buttons */
   .all-buttons-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-self: end;
+    /* justify-content: end; */
     margin: 1.5em;
-    margin-top: 3.5em;
+    margin-top: unset;
     margin-bottom: 0.5em;
+    margin-right: 13%;
     padding: 0.5em;
-    /* border: solid red; */
   }
   
   .button-container {
@@ -112,6 +123,12 @@
     margin: 1em;
     margin-top: 2em;
     box-shadow: 12px 14px 39px 0px rgba(0,0,0,0.43);
+  }
+
+  .header h2{
+    letter-spacing: 0.7vw;
+    font-size: 3.3vh;
+    color:rgba(93, 103, 158, 0.178)
   }
   
   /* Card Container */
@@ -170,11 +187,13 @@
   /* Carousel Buttons */
   .all-buttons-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5em;
+    align-self: end;
+    /* justify-content: end; */
+    margin: unset;
+    margin-top: unset;
+    margin-bottom: 0.5em;
+    margin-right: unset;
     padding: 0.5em;
-    /* border: solid red; */
   }
   
   .button-container {
@@ -185,7 +204,7 @@
     padding: 1em;
     margin: 1em;
     border-radius: 5vw;
-    width: 15vw;
+    width: 13vw;
     background-color: rgba(93, 103, 158, 0.178);
   }
   
